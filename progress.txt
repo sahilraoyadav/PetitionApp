@@ -1,0 +1,60 @@
+//This will contain all the changes we made everytime we work on this
+//Easier to keep track of where we are
+//Try to record a short description of what you did
+
+
+11/15 - 11/16 - Del
+
+    -Added a toolbar
+        -Back button in register and make petition
+        -re arranged petition list.xml for toolbar
+    -Implemented scroll bar on register
+    -Will be implementing scroll bar on login
+    -Added click listener to on recviewAdapter activity
+        -Click listener Will use email+title as unique id to find post from database
+        -Database finder on PetitionPage not yet implemented
+        
+11/18 - Del
+
+    -Made petition list into teal theme(UNCW Theme)
+    -Made adjustments on Petition page
+    -Implemented PetitionList code into MyPetition
+        -Still need to adjust some codes
+        -Only show user's petitions
+
+    -Need to connect mypetitions page to petitions list page
+    -Need to put remove delete from petition list page
+    -Instead of just passing values through intent.putExtra from petition list to petition page,
+     get the data through petitionPage activity
+
+11/23 - Del
+
+    -My Petitions is active and working properly
+    -Toolbar/Action Bar is unique in each page
+    -Petitions page will show view-only petitions
+    -MyPetitions page will view editable petitions
+    -Remove delete feature on PetitionList
+    -Moved it to MyPetition (Only the User who made the petition can delete + edit)
+    -Both PetitionList and MyPetitions will display a list by descending order by date
+
+
+    -Will need to implement users signature into PetitionPage
+
+11/24 - Del
+
+    -Fixed bug: when swiping left to delete, recview only shows grey container with trash icon
+
+11/27 - Del
+
+    -Implemented sign button
+    -Signature increments when user clicks on sign button
+    -The user who made the petish will not be able to vote to his own petish
+    -User who signed will also be added to arraylist of signers in Model object(maker os petition is automatically added)
+    -User will be able to undo signature if he/she accidentally clicked
+    -User will only be able to sign once
+
+    -Stuff left to do
+        -Share button needs work
+        -Extra credit stuff
+        -Post Images
+        -Search petitions

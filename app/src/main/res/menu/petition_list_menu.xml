@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search Data"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/editBtn"
+        android:title="@string/editPetition"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+        android:id="@+id/myPosts"
+        android:title="@string/myPetitions"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+</menu>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">What\'s App With That</string>
+    <string name="userName">Enter Full Name</string>
+    <string name="email">Enter Email</string>
+    <string name="fName">Enter First Name</string>
+    <string name="lName">Enter Last Name</string>
+    <string name="password_label">Enter Password</string>
+    <string name="confirm_password_label">Confirm Password</string>
+    <string name="hello">Welcome %1$s!</string>
+    <string name="logout">Logout</string>
+    <string name="acctCreate">Create New Account</string>
+    <string name="needAcct">Need an Account? Click Here</string>
+    <string name="signupIntro">Already have an account? Sign in here</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="forgetPassword">Reset Password</string>
+    <string name="myPetitions">My Petitions</string>
+    <string name="firestore_button">Launch Firestore Activity</string>
+    <string name="signatureTitle">Signatures</string>
+    <string name="signPetition">Sign</string>
+    <string name="enterTitle">Enter Petition Title</string>
+    <string name="enterDescp">Enter Petition Description</string>
+    <string name="postPetition">Post</string>
+    <string name="editPetition">Edit</string>
+    <string name="petitions">Petitions</string>
+</resources>
